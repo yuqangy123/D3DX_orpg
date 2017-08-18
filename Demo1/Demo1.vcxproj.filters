@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{04f9a615-be0a-44a8-892c-a3052286f8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\xml">
+      <UniqueIdentifier>{03e257a1-7692-43e0-8388-32d2ede70f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\xml\tinyxml">
+      <UniqueIdentifier>{26d4da26-290c-42c2-9985-ed0f937dcbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统资源">
+      <UniqueIdentifier>{78e53411-e256-46cd-b097-b079446f82f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景管理">
+      <UniqueIdentifier>{9d8f8adf-6f18-471e-b905-2b7a092edf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景管理\地形渲染">
+      <UniqueIdentifier>{6a8033c9-c742-4860-bc2b-b94a060dd525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景管理\粒子系统">
+      <UniqueIdentifier>{6e00647e-467b-4e00-a957-745da936bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模型资源管理">
+      <UniqueIdentifier>{7c1179dd-2255-4d20-9e00-b8ff5d13ce22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="摄像头">
+      <UniqueIdentifier>{2e7e3dae-0af2-46ea-8c3c-ce06599791a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="统计">
+      <UniqueIdentifier>{92078d60-7280-430e-9c03-7e21df814c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输入输出">
+      <UniqueIdentifier>{64f69007-2dd0-4d67-a6f2-894035f53513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Deck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoGE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common1.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Encoder.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFile.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseXml.cpp">
+      <Filter>common\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\inc\tinystr.cpp">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\inc\tinyxml.cpp">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\inc\tinyxmlerror.cpp">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\inc\tinyxmlparser.cpp">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDevice.cpp">
+      <Filter>系统资源</Filter>
+    </ClCompile>
+    <ClCompile Include="GWindows.cpp">
+      <Filter>系统资源</Filter>
+    </ClCompile>
+    <ClCompile Include="ResFileManager.cpp">
+      <Filter>系统资源</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsManager.cpp">
+      <Filter>系统资源</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorObject.cpp">
+      <Filter>场景管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>场景管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>场景管理</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFrustum.cpp">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>场景管理\粒子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimInstance.cpp">
+      <Filter>模型资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>模型资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>模型资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>模型资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMesh.cpp">
+      <Filter>模型资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>摄像头</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>统计</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>输入输出</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>输入输出</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Deck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoGE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileXml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base_type.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common1.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonAPI.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Encoder.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFile.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseXml.h">
+      <Filter>common\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\inc\tinystr.h">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\inc\tinyxml.h">
+      <Filter>common\xml\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDevice.h">
+      <Filter>系统资源</Filter>
+    </ClInclude>
+    <ClInclude Include="GWindows.h">
+      <Filter>系统资源</Filter>
+    </ClInclude>
+    <ClInclude Include="ResFileManager.h">
+      <Filter>系统资源</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsManager.h">
+      <Filter>系统资源</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorObject.h">
+      <Filter>场景管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>场景管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>场景管理</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFrustum.h">
+      <Filter>场景管理\地形渲染</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>场景管理\粒子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimInstance.h">
+      <Filter>模型资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>模型资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>模型资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>模型资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMesh.h">
+      <Filter>模型资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>摄像头</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>统计</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>输入输出</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>输入输出</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
